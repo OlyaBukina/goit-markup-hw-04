@@ -127,10 +127,6 @@ p {
   margin-right: 10px;
   fill: currentColor;
 }
-.contacts-list .contacts-icon:hover,
-.contacts-list .contacts-icon:focus {
-  fill: var(--accent-color);
-}
 
 /* Section Hero */
 .hero {
