@@ -163,13 +163,19 @@ p {
   text-align: center;
 }
 .primary-button {
-  padding: 10px 32px;
+  height: 50px;
+  width: 216px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 
-  background-color: var(--accent-color);
+  background-color: #188ce8;
   color: var(--white-text);
   font-family: inherit;
   border-radius: 4px;
   border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
   font-weight: 700;
   font-size: 16px;
@@ -179,8 +185,7 @@ p {
 }
 .primary-button:hover,
 .primary-button:focus {
-  background-color: var(--secondary-background-color);
-  color: var(--title-color);
+  background-color: var(--accent-color);
   cursor: pointer;
 }
 
@@ -196,8 +201,13 @@ p {
   flex-basis: calc((100% - 90px) / 4);
 }
 .advantages-list .icon-wrap {
-  padding: 25px 0;
+  width: 270px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
+
   background-color: var(--secondary-background-color);
   border-radius: 4px;
   text-align: center;
@@ -273,10 +283,11 @@ p {
   column-gap: 10px;
 }
 .social-list .link {
-  display: block;
-  padding: 12px;
   width: 44px;
   height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   fill: var(--social-links-color);
   border-radius: 50%;
@@ -293,8 +304,12 @@ p {
   column-gap: 30px;
 }
 .clients-list .link {
+  width: 170px;
+  height: 92px;
   display: flex;
-  padding: 16px 31px;
+  justify-content: center;
+  align-items: center;
+
   border: 1px solid var(--social-links-color);
   border-radius: 4px;
   fill: var(--social-links-color);
@@ -341,7 +356,7 @@ p {
 .address-wrap {
   margin-right: 70px;
 }
-.footer-social-links .title {
+.footer-social-links .call {
   margin-bottom: 20px;
   text-transform: uppercase;
   font-weight: 700;
